@@ -1,0 +1,309 @@
+{
+ "as_of": "2026-11-25",
+ "dev": {
+  "baseline": {
+   "fn": 3,
+   "fp": 271,
+   "frac": "P 196/467, R 196/199",
+   "precision": 0.42,
+   "recall": 0.985,
+   "tp": 196
+  },
+  "category": {
+   "baseline_agreement": "22/58",
+   "by_archetype": {
+    "best_case_ok": "engine 5/5, baseline 3/5",
+    "commit_clean": "engine 7/7, baseline 7/7",
+    "commit_overcalled_no_paper": "engine 6/6, baseline 0/6",
+    "commit_rep_only": "engine 5/5, baseline 0/5",
+    "contradictory_eb": "engine 4/4, baseline 2/4",
+    "contradictory_paper": "engine 3/3, baseline 0/3",
+    "injected": "engine 4/4, baseline 0/4",
+    "late_decision_date": "engine 3/3, baseline 0/3",
+    "missing_notes": "engine 3/3, baseline 3/3",
+    "negative_eb": "engine 3/3, baseline 0/3",
+    "pipeline_sparse": "engine 4/4, baseline 0/4",
+    "sandbag": "engine 4/4, baseline 4/4",
+    "stale_evidence": "engine 4/4, baseline 0/4",
+    "superseded_dp": "engine 3/3, baseline 3/3"
+   },
+   "deals": 58,
+   "engine_agreement": "58/58",
+   "engine_misses": [],
+   "false_commit": {
+    "baseline": 36,
+    "engine": 0,
+    "rep_called": 33
+   },
+   "rep_called_agreement": "21/58"
+  },
+  "claims_not_in_gold": {
+   "baseline": "271/467",
+   "engine": "0/199"
+  },
+  "conflict_detection": {
+   "fn": 0,
+   "fp": 0,
+   "frac": "P 8/8, R 8/8",
+   "precision": 1.0,
+   "recall": 1.0,
+   "tp": 8
+  },
+  "engine": {
+   "fn": 0,
+   "fp": 0,
+   "frac": "P 199/199, R 199/199",
+   "precision": 1.0,
+   "recall": 1.0,
+   "tp": 199
+  },
+  "injection": {
+   "accepted_fake_deals": [],
+   "evidence_leaked_from_quarantined_docs": 0,
+   "quarantined_correct": 4,
+   "quarantined_wrong": 0,
+   "screened_docs_gold": 4,
+   "unscreened_injection_accepted_as_evidence": 0,
+   "unscreened_injections_in_gold": 0
+  },
+  "per_field": {
+   "champion": {
+    "baseline": "P 16/41, R 16/16",
+    "engine": "P 16/16, R 16/16"
+   },
+   "competition": {
+    "baseline": "P 9/36, R 9/9",
+    "engine": "P 9/9, R 9/9"
+   },
+   "decision_process": {
+    "baseline": "P 40/90, R 40/40",
+    "engine": "P 40/40, R 40/40"
+   },
+   "economic_buyer": {
+    "baseline": "P 41/119, R 41/44",
+    "engine": "P 44/44, R 44/44"
+   },
+   "identify_pain": {
+    "baseline": "P 46/46, R 46/46",
+    "engine": "P 46/46, R 46/46"
+   },
+   "metrics": {
+    "baseline": "P 4/26, R 4/4",
+    "engine": "P 4/4, R 4/4"
+   },
+   "paper_process": {
+    "baseline": "P 40/109, R 40/40",
+    "engine": "P 40/40, R 40/40"
+   }
+  },
+  "rejected_candidates": {
+   "doc_quarantined": 4
+  },
+  "unsupported_claims": {
+   "baseline": "0/705",
+   "engine": "0/281",
+   "note": "claim = span not verbatim in its source document; both emit verbatim sentences, so this isolates fabrication, not relevance"
+  },
+  "value_accuracy_typed_tp": "149/149"
+ },
+ "gold_version": "gold_v1",
+ "heldout": {
+  "baseline": {
+   "fn": 16,
+   "fp": 108,
+   "frac": "P 68/176, R 68/84",
+   "precision": 0.386,
+   "recall": 0.81,
+   "tp": 68
+  },
+  "category": {
+   "baseline_agreement": "8/24",
+   "by_archetype": {
+    "best_case_ok": "engine 0/2, baseline 0/2",
+    "commit_clean": "engine 0/3, baseline 2/3",
+    "commit_overcalled_no_paper": "engine 2/2, baseline 0/2",
+    "commit_rep_only": "engine 2/2, baseline 0/2",
+    "contradictory_eb": "engine 1/2, baseline 1/2",
+    "contradictory_paper": "engine 1/1, baseline 0/1",
+    "injected": "engine 1/2, baseline 0/2",
+    "late_decision_date": "engine 0/1, baseline 0/1",
+    "missing_notes": "engine 1/1, baseline 1/1",
+    "negative_eb": "engine 1/1, baseline 0/1",
+    "pipeline_sparse": "engine 2/2, baseline 1/2",
+    "sandbag": "engine 1/2, baseline 2/2",
+    "stale_evidence": "engine 2/2, baseline 0/2",
+    "superseded_dp": "engine 1/1, baseline 1/1"
+   },
+   "deals": 24,
+   "engine_agreement": "15/24",
+   "engine_misses": [
+    {
+     "archetype": "best_case_ok",
+     "deal": "D-2002",
+     "engine": "Pipeline",
+     "gold": "Best Case"
+    },
+    {
+     "archetype": "contradictory_eb",
+     "deal": "D-2008",
+     "engine": "Best Case",
+     "gold": "Commit"
+    },
+    {
+     "archetype": "sandbag",
+     "deal": "D-2009",
+     "engine": "Pipeline",
+     "gold": "Commit"
+    },
+    {
+     "archetype": "commit_clean",
+     "deal": "D-2010",
+     "engine": "Best Case",
+     "gold": "Commit"
+    },
+    {
+     "archetype": "best_case_ok",
+     "deal": "D-2016",
+     "engine": "Pipeline",
+     "gold": "Best Case"
+    },
+    {
+     "archetype": "injected",
+     "deal": "D-2018",
+     "engine": "Commit",
+     "gold": "Best Case"
+    },
+    {
+     "archetype": "late_decision_date",
+     "deal": "D-2019",
+     "engine": "Pipeline",
+     "gold": "Best Case"
+    },
+    {
+     "archetype": "commit_clean",
+     "deal": "D-2023",
+     "engine": "Best Case",
+     "gold": "Commit"
+    },
+    {
+     "archetype": "commit_clean",
+     "deal": "D-2024",
+     "engine": "Pipeline",
+     "gold": "Commit"
+    }
+   ],
+   "false_commit": {
+    "baseline": 15,
+    "engine": 1,
+    "rep_called": 13
+   },
+   "rep_called_agreement": "9/24"
+  },
+  "claims_not_in_gold": {
+   "baseline": "108/176",
+   "engine": "1/64"
+  },
+  "conflict_detection": {
+   "fn": 1,
+   "fp": 0,
+   "frac": "P 2/2, R 2/3",
+   "precision": 1.0,
+   "recall": 0.667,
+   "tp": 2
+  },
+  "engine": {
+   "fn": 21,
+   "fp": 1,
+   "frac": "P 63/64, R 63/84",
+   "precision": 0.984,
+   "recall": 0.75,
+   "tp": 63
+  },
+  "injection": {
+   "accepted_fake_deals": [
+    "D-2018"
+   ],
+   "evidence_leaked_from_quarantined_docs": 0,
+   "quarantined_correct": 1,
+   "quarantined_wrong": 0,
+   "screened_docs_gold": 1,
+   "unscreened_injection_accepted_as_evidence": 1,
+   "unscreened_injections_in_gold": 1
+  },
+  "per_field": {
+   "champion": {
+    "baseline": "P 2/13, R 2/7",
+    "engine": "P 4/4, R 4/7"
+   },
+   "competition": {
+    "baseline": "P 4/11, R 4/4",
+    "engine": "P 3/3, R 3/4"
+   },
+   "decision_process": {
+    "baseline": "P 13/34, R 13/17",
+    "engine": "P 16/16, R 16/17"
+   },
+   "economic_buyer": {
+    "baseline": "P 18/48, R 18/19",
+    "engine": "P 17/17, R 17/19"
+   },
+   "identify_pain": {
+    "baseline": "P 13/13, R 13/19",
+    "engine": "P 13/13, R 13/19"
+   },
+   "metrics": {
+    "baseline": "P 2/14, R 2/2",
+    "engine": "P 2/2, R 2/2"
+   },
+   "paper_process": {
+    "baseline": "P 16/41, R 16/16",
+    "engine": "P 8/9, R 8/16"
+   }
+  },
+  "rejected_candidates": {
+   "doc_quarantined": 1
+  },
+  "unsupported_claims": {
+   "baseline": "0/281",
+   "engine": "0/94",
+   "note": "claim = span not verbatim in its source document; both emit verbatim sentences, so this isolates fabrication, not relevance"
+  },
+  "value_accuracy_typed_tp": "48/48"
+ },
+ "heldout_sha256": "416ed32db20288b27954c0fd17be51bef892fc0b882af48015e9a78a65a80443",
+ "policy_version": "policy.v1",
+ "scripted_model": {
+  "dev": {
+   "bad_candidates_produced": 90,
+   "bad_candidates_rejected": 90,
+   "candidates_rejected_by_reason": {
+    "span_does_not_support_field": 32,
+    "span_not_verbatim_in_source": 33,
+    "value_not_supported_by_span": 25
+   },
+   "category_agreement_with_gold": "49/58",
+   "docs": 165,
+   "docs_fell_back_to_rules": 63,
+   "docs_using_model_output": 98,
+   "model_calls": 223,
+   "unparseable_outputs": 32,
+   "unsupported_spans_in_accepted_evidence": 0
+  },
+  "heldout": {
+   "bad_candidates_produced": 35,
+   "bad_candidates_rejected": 35,
+   "candidates_rejected_by_reason": {
+    "span_does_not_support_field": 13,
+    "span_not_verbatim_in_source": 14,
+    "value_not_supported_by_span": 8
+   },
+   "category_agreement_with_gold": "14/24",
+   "docs": 69,
+   "docs_fell_back_to_rules": 26,
+   "docs_using_model_output": 42,
+   "model_calls": 94,
+   "unparseable_outputs": 13,
+   "unsupported_spans_in_accepted_evidence": 0
+  }
+ }
+}

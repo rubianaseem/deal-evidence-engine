@@ -1,0 +1,9 @@
+deal_id,deal_name,account_name,owner,amount,currency,stage,forecast_category,close_date,metrics,economic_buyer,decision_criteria,decision_process,paper_process,identify_pain,champion,competition
+D-9001,Orchard Labs Group renewal+upsell,Orchard Labs Group,Priya,38000,GBP,Verbal Commit,Commit,2026-12-13,,Tom Rossi,,,,,,
+D-9002,Lumenworks Systems new logo,Lumenworks Systems,Priya,120000,GBP,Proposal,Commit,2026-12-26,,,,,,,,
+D-9003,Brightwave new logo,Brightwave,Amira K,210000,GBP,Evaluation,commit,2026-12-14,,Marcus Alves (Head of Procurement),,Board approves soon,Legal in review,,Marcus Alves,
+D-9004,Riverbend Health renewal+upsell,Riverbend Health,j.walker@example-seller.test,210000,EUR,Evaluation,Pipeline,2026-12-24,,,,,,,,
+D-9005,Tessellate renewal+upsell,Tessellate,Amira K,75000,GBP,Evaluation,Commit,2026-12-18,,,,,,,,
+D-9006,Pinecrest Systems renewal+upsell,Pinecrest Systems,S Ortiz,210000,USD,Verbal Commit,Commit,2026-12-27,,,,,,,,
+D-9007,Tessellate Group new logo,Tessellate Group,j.walker@example-seller.test,120000,EUR,Verbal Commit,Commit,2026-12-21,,,,,,,TBD (rep note),
+D-9008,Ledgerly Systems new logo,Ledgerly Systems,Priya,210000,EUR,Proposal,Commit?,2026-12-29,,,,,,,,

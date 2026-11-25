@@ -1,0 +1,16 @@
+{
+  "version": "policy.v1",
+  "_note": "Evidence-gated forecast category rules. Hygiene rules (stale close dates, stage skips, amount changes) live in forecast-commit-hygiene-agent and are not repeated here.",
+  "max_age_days": {"default": 30, "decision_process": 30, "paper_process": 21, "economic_buyer": 45, "champion": 45, "identify_pain": 60, "metrics": 60, "decision_criteria": 60, "competition": 60},
+  "commit_requires": ["economic_buyer", "decision_process", "paper_process"],
+  "best_case_requires_all": ["identify_pain"],
+  "best_case_requires_any": ["economic_buyer", "decision_process", "champion"],
+  "decision_date_must_be_on_or_before_close_date": true,
+  "paper_process_ok_statuses": ["in_progress", "complete"],
+  "evidence_strength_required": "buyer_stated",
+  "competitors": ["AcmeLang", "TranslateCo", "Lingua Pro", "GlobalWord", "PolyglotAI", "Verbatim Labs"],
+  "meddpicc_fields": ["metrics", "economic_buyer", "decision_criteria", "decision_process", "paper_process", "identify_pain", "champion", "competition"],
+  "category_rank": {"Pipeline": 1, "Best Case": 2, "Commit": 3},
+  "held_groups": ["category_change"],
+  "max_field_chars": 200
+}

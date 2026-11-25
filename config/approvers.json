@@ -1,0 +1,11 @@
+{
+  "_note": "Named humans who may approve an update plan. Agent, model and service identities are always refused. There is no auto-approve flag. Names are examples; replace with your own people.",
+  "approvers": {
+    "rubia": {"name": "Rubia Naseem", "may_approve_held": true},
+    "revops-lead": {"name": "RevOps lead (example)", "may_approve_held": true},
+    "sales-manager": {"name": "Sales manager (example)", "may_approve_held": true},
+    "ae-owner": {"name": "Deal owner AE (example)", "may_approve_held": false}
+  },
+  "blocked_identities": ["agent", "deal-evidence-engine", "dee", "claude", "model", "llm", "bot", "service", "system", "automation", "integration", "api", "workflow", "n8n", "zapier", "ci"],
+  "approval_ttl_hours": 24
+}

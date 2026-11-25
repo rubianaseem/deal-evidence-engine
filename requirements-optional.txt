@@ -1,0 +1,2 @@
+# Only for the optional Claude extraction path (python agent.py run --claude)
+anthropic>=0.40

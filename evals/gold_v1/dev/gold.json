@@ -1,0 +1,2613 @@
+[
+ {
+  "archetype": "stale_evidence",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1001",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1001",
+    "doc_id": "DOC-1001-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "our VP Operations"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1001",
+    "doc_id": "DOC-1001-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-10-16"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1001",
+    "doc_id": "DOC-1001-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1001",
+    "doc_id": "DOC-1001-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1001",
+    "doc_id": "DOC-1001-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Ivan Rossi"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1001-1|economic_buyer|pos": "Our VP Operations will sign this off at the end.",
+   "DOC-1001-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1001-2|champion|pos": "I'll forward your deck to our VP Finance today.",
+   "DOC-1001-2|decision_process|pos": "Decision meeting is booked for 16th of October.",
+   "DOC-1001-3|paper_process|pos": "Our legal team received the MSA last week and is reviewing it."
+  },
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_rep_only",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1002",
+  "evidence": [],
+  "evidence_sentences": {},
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "best_case_ok",
+  "called_category": "Best Case",
+  "conflict_fields": [],
+  "deal_id": "D-1003",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1003",
+    "doc_id": "DOC-1003-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1003",
+    "doc_id": "DOC-1003-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Marcus Petrov"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1003",
+    "doc_id": "DOC-1003-2",
+    "field": "competition",
+    "polarity": "pos",
+    "value": "PolyglotAI"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1003-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1003-2|champion|pos": "I've already shared the pricing with the leadership team.",
+   "DOC-1003-2|competition|pos": "PolyglotAI is the incumbent."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "negative_eb",
+  "called_category": "Commit",
+  "conflict_fields": [
+   "economic_buyer"
+  ],
+  "deal_id": "D-1004",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1004",
+    "doc_id": "DOC-1004-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "our COO"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1004",
+    "doc_id": "DOC-1004-2",
+    "field": "economic_buyer",
+    "polarity": "neg",
+    "value": "Omar Wright"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1004",
+    "doc_id": "DOC-1004-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-30"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1004",
+    "doc_id": "DOC-1004-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1004",
+    "doc_id": "DOC-1004-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1004-1|economic_buyer|pos": "Our COO will sign this off at the end.",
+   "DOC-1004-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1004-2|decision_process|pos": "The steering committee meets on 30 Nov to make the decision.",
+   "DOC-1004-2|economic_buyer|neg": "I'm not the final approver on this.",
+   "DOC-1004-3|paper_process|pos": "Our legal team received the MSA last week and is reviewing it."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "sandbag",
+  "called_category": "Pipeline",
+  "conflict_fields": [],
+  "deal_id": "D-1005",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1005",
+    "doc_id": "DOC-1005-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Marcus Mensah"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1005",
+    "doc_id": "DOC-1005-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-30"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1005",
+    "doc_id": "DOC-1005-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1005",
+    "doc_id": "DOC-1005-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1005-1|economic_buyer|pos": "I sign off on anything over fifty thousand, so this one comes to me.",
+   "DOC-1005-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1005-2|decision_process|pos": "The steering committee meets on 2026-11-30 to make the decision.",
+   "DOC-1005-3|paper_process|pos": "Our legal team received the MSA last week and is reviewing it."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "stale_evidence",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1006",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1006",
+    "doc_id": "DOC-1006-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Ivan Lopez"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1006",
+    "doc_id": "DOC-1006-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-10-16"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1006",
+    "doc_id": "DOC-1006-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1006",
+    "doc_id": "DOC-1006-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1006",
+    "doc_id": "DOC-1006-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Ivan Lopez"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1006-1|economic_buyer|pos": "I sign off on anything over fifty thousand, so this one comes to me.",
+   "DOC-1006-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1006-2|champion|pos": "I'll forward your deck to our VP Finance today.",
+   "DOC-1006-2|decision_process|pos": "Our board approves vendors on 16 Oct.",
+   "DOC-1006-3|paper_process|pos": "Our legal team received the MSA last week and is reviewing it."
+  },
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "missing_notes",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1007",
+  "evidence": [],
+  "evidence_sentences": {},
+  "gold_category": "Pipeline",
+  "has_notes": false,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "sandbag",
+  "called_category": "Pipeline",
+  "conflict_fields": [],
+  "deal_id": "D-1008",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1008",
+    "doc_id": "DOC-1008-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "our CMO"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1008",
+    "doc_id": "DOC-1008-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-04"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1008",
+    "doc_id": "DOC-1008-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1008",
+    "doc_id": "DOC-1008-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1008-1|economic_buyer|pos": "Our CMO will sign this off at the end.",
+   "DOC-1008-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1008-2|decision_process|pos": "Decision meeting is booked for Dec 4th.",
+   "DOC-1008-3|paper_process|pos": "Our legal team received the MSA last week and is reviewing it."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_clean",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1009",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1009",
+    "doc_id": "DOC-1009-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Kofi Alves"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1009",
+    "doc_id": "DOC-1009-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-02"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1009",
+    "doc_id": "DOC-1009-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "complete"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1009",
+    "doc_id": "DOC-1009-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1009",
+    "doc_id": "DOC-1009-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Kofi Alves"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1009-1|economic_buyer|pos": "I sign off on anything over fifty thousand, so this one comes to me.",
+   "DOC-1009-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1009-2|champion|pos": "I'll forward your deck to our VP Finance today.",
+   "DOC-1009-2|decision_process|pos": "The steering committee meets on 2nd of December to make the decision.",
+   "DOC-1009-3|paper_process|pos": "Security review passed and procurement signed off."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "injected",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1010",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1010",
+    "doc_id": "DOC-1010-2",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1010-2|identify_pain|pos": "Our biggest headache is the manual review of every file."
+  },
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": [
+   "DOC-1010-1"
+  ]
+ },
+ {
+  "archetype": "contradictory_eb",
+  "called_category": "Commit",
+  "conflict_fields": [
+   "economic_buyer"
+  ],
+  "deal_id": "D-1011",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1011",
+    "doc_id": "DOC-1011-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Kofi Mensah"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1011",
+    "doc_id": "DOC-1011-2",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Marcus Ito"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1011",
+    "doc_id": "DOC-1011-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-30"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1011",
+    "doc_id": "DOC-1011-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1011",
+    "doc_id": "DOC-1011-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1011-1|economic_buyer|pos": "I sign off on anything over fifty thousand, so this one comes to me.",
+   "DOC-1011-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1011-2|decision_process|pos": "The steering committee meets on Nov 30th to make the decision.",
+   "DOC-1011-2|economic_buyer|pos": "I approve anything under a hundred thousand, so this is mine.",
+   "DOC-1011-3|paper_process|pos": "Our legal team received the MSA last week and is reviewing it."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "stale_evidence",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1012",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1012",
+    "doc_id": "DOC-1012-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Chloe Shah"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1012",
+    "doc_id": "DOC-1012-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-10-16"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1012",
+    "doc_id": "DOC-1012-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1012",
+    "doc_id": "DOC-1012-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1012",
+    "doc_id": "DOC-1012-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Chloe Shah"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1012-1|economic_buyer|pos": "I own the budget for this and I approve the purchase.",
+   "DOC-1012-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1012-2|champion|pos": "I'll forward your deck to our VP Finance today.",
+   "DOC-1012-2|decision_process|pos": "Our board approves vendors on 16 Oct.",
+   "DOC-1012-3|paper_process|pos": "Our legal team received the MSA last week and is reviewing it."
+  },
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "injected",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1013",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1013",
+    "doc_id": "DOC-1013-2",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1013-2|identify_pain|pos": "We are falling behind because the backlog keeps growing."
+  },
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": [
+   "DOC-1013-1"
+  ]
+ },
+ {
+  "archetype": "commit_overcalled_no_paper",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1014",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1014",
+    "doc_id": "DOC-1014-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "our Head of Localisation"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1014",
+    "doc_id": "DOC-1014-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-04"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1014",
+    "doc_id": "DOC-1014-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "not_started"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1014",
+    "doc_id": "DOC-1014-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1014-1|economic_buyer|pos": "Our Head of Localisation will sign this off at the end.",
+   "DOC-1014-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1014-2|decision_process|pos": "Our board approves vendors on 4 Dec.",
+   "DOC-1014-3|paper_process|pos": "Procurement hasn't seen the contract yet."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_clean",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1015",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1015",
+    "doc_id": "DOC-1015-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Yusuf Alves"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1015",
+    "doc_id": "DOC-1015-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-30"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1015",
+    "doc_id": "DOC-1015-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1015",
+    "doc_id": "DOC-1015-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1015",
+    "doc_id": "DOC-1015-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Ines Novak"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1015-1|economic_buyer|pos": "Yusuf Alves signs off on contracts like this one.",
+   "DOC-1015-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1015-2|champion|pos": "I've already shared the pricing with the leadership team.",
+   "DOC-1015-2|decision_process|pos": "Decision meeting is booked for 2026-11-30.",
+   "DOC-1015-3|paper_process|pos": "Procurement has started the vendor registration form."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_clean",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1016",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1016",
+    "doc_id": "DOC-1016-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "our VP Finance"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1016",
+    "doc_id": "DOC-1016-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-01"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1016",
+    "doc_id": "DOC-1016-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "complete"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1016",
+    "doc_id": "DOC-1016-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1016",
+    "doc_id": "DOC-1016-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Chloe Cole"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1016-1|economic_buyer|pos": "Our VP Finance will sign this off at the end.",
+   "DOC-1016-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1016-2|champion|pos": "I'll forward your deck to our VP Finance today.",
+   "DOC-1016-2|decision_process|pos": "Decision meeting is booked for 1st of December.",
+   "DOC-1016-3|paper_process|pos": "Security review passed and procurement signed off."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "late_decision_date",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1017",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1017",
+    "doc_id": "DOC-1017-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Chloe Reid"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1017",
+    "doc_id": "DOC-1017-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-27"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1017",
+    "doc_id": "DOC-1017-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1017",
+    "doc_id": "DOC-1017-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1017-1|economic_buyer|pos": "I own the budget for this and I approve the purchase.",
+   "DOC-1017-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1017-2|decision_process|pos": "Our board approves vendors on 27 Dec.",
+   "DOC-1017-3|paper_process|pos": "Our legal team received the MSA last week and is reviewing it."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "stale_evidence",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1018",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1018",
+    "doc_id": "DOC-1018-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Tom Rossi"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1018",
+    "doc_id": "DOC-1018-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-10-16"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1018",
+    "doc_id": "DOC-1018-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1018",
+    "doc_id": "DOC-1018-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1018",
+    "doc_id": "DOC-1018-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Priya Alves"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1018-1|economic_buyer|pos": "Tom Rossi signs off on contracts like this one.",
+   "DOC-1018-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1018-2|champion|pos": "I've already shared the pricing with the leadership team.",
+   "DOC-1018-2|decision_process|pos": "Our board approves vendors on Oct 16th.",
+   "DOC-1018-3|paper_process|pos": "Procurement has started the vendor registration form."
+  },
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "pipeline_sparse",
+  "called_category": "Pipeline",
+  "conflict_fields": [],
+  "deal_id": "D-1019",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1019",
+    "doc_id": "DOC-1019-1",
+    "field": "competition",
+    "polarity": "pos",
+    "value": "Verbatim Labs"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1019",
+    "doc_id": "DOC-1019-2",
+    "field": "metrics",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1019-1|competition|pos": "Verbatim Labs is the incumbent.",
+   "DOC-1019-2|metrics|pos": "Currently we spend \u00a3120k a year on this."
+  },
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "missing_notes",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1020",
+  "evidence": [],
+  "evidence_sentences": {},
+  "gold_category": "Pipeline",
+  "has_notes": false,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_clean",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1021",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1021",
+    "doc_id": "DOC-1021-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Maria Lopez"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1021",
+    "doc_id": "DOC-1021-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-01"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1021",
+    "doc_id": "DOC-1021-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "complete"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1021",
+    "doc_id": "DOC-1021-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1021",
+    "doc_id": "DOC-1021-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Maria Lopez"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1021-1|economic_buyer|pos": "I sign off on anything over fifty thousand, so this one comes to me.",
+   "DOC-1021-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1021-2|champion|pos": "I'll forward your deck to our VP Finance today.",
+   "DOC-1021-2|decision_process|pos": "Our board approves vendors on Dec 1st.",
+   "DOC-1021-3|paper_process|pos": "Legal has approved the MSA, no further comments."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "negative_eb",
+  "called_category": "Commit",
+  "conflict_fields": [
+   "economic_buyer"
+  ],
+  "deal_id": "D-1022",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1022",
+    "doc_id": "DOC-1022-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Raj Quinn"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1022",
+    "doc_id": "DOC-1022-2",
+    "field": "economic_buyer",
+    "polarity": "neg",
+    "value": "Raj Quinn"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1022",
+    "doc_id": "DOC-1022-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-30"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1022",
+    "doc_id": "DOC-1022-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1022",
+    "doc_id": "DOC-1022-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1022-1|economic_buyer|pos": "I sign off on anything over fifty thousand, so this one comes to me.",
+   "DOC-1022-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1022-2|decision_process|pos": "The steering committee meets on 30th of November to make the decision.",
+   "DOC-1022-2|economic_buyer|neg": "I'm not the final approver on this.",
+   "DOC-1022-3|paper_process|pos": "Procurement has started the vendor registration form."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_clean",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1023",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1023",
+    "doc_id": "DOC-1023-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "our Head of Localisation"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1023",
+    "doc_id": "DOC-1023-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-04"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1023",
+    "doc_id": "DOC-1023-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "complete"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1023",
+    "doc_id": "DOC-1023-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1023",
+    "doc_id": "DOC-1023-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Ivan Mehta"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1023-1|economic_buyer|pos": "Our Head of Localisation will sign this off at the end.",
+   "DOC-1023-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1023-2|champion|pos": "I'll forward your deck to our VP Finance today.",
+   "DOC-1023-2|decision_process|pos": "The steering committee meets on 2026-12-04 to make the decision.",
+   "DOC-1023-3|paper_process|pos": "Legal has approved the MSA, no further comments."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "contradictory_paper",
+  "called_category": "Commit",
+  "conflict_fields": [
+   "paper_process"
+  ],
+  "deal_id": "D-1024",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1024",
+    "doc_id": "DOC-1024-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Yusuf Novak"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1024",
+    "doc_id": "DOC-1024-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-01"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1024",
+    "doc_id": "DOC-1024-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1024",
+    "doc_id": "DOC-1024-1",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "complete"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1024",
+    "doc_id": "DOC-1024-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "not_started"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1024-1|economic_buyer|pos": "Yusuf Novak signs off on contracts like this one.",
+   "DOC-1024-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1024-1|paper_process|pos": "Legal has approved the MSA, no further comments.",
+   "DOC-1024-2|decision_process|pos": "The steering committee meets on 1st of December to make the decision.",
+   "DOC-1024-3|paper_process|pos": "Legal has not started on the MSA."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "best_case_ok",
+  "called_category": "Best Case",
+  "conflict_fields": [],
+  "deal_id": "D-1025",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1025",
+    "doc_id": "DOC-1025-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1025",
+    "doc_id": "DOC-1025-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Yusuf Alves"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1025",
+    "doc_id": "DOC-1025-2",
+    "field": "competition",
+    "polarity": "pos",
+    "value": "Lingua Pro"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1025-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1025-2|champion|pos": "I've already shared the pricing with the leadership team.",
+   "DOC-1025-2|competition|pos": "Lingua Pro is the incumbent."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_clean",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1026",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1026",
+    "doc_id": "DOC-1026-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Tom Shah"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1026",
+    "doc_id": "DOC-1026-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-04"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1026",
+    "doc_id": "DOC-1026-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1026",
+    "doc_id": "DOC-1026-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1026",
+    "doc_id": "DOC-1026-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Tom Shah"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1026-1|economic_buyer|pos": "I own the budget for this and I approve the purchase.",
+   "DOC-1026-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1026-2|champion|pos": "I've already shared the pricing with the leadership team.",
+   "DOC-1026-2|decision_process|pos": "The steering committee meets on 4 Dec to make the decision.",
+   "DOC-1026-3|paper_process|pos": "Our legal team received the MSA last week and is reviewing it."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "sandbag",
+  "called_category": "Pipeline",
+  "conflict_fields": [],
+  "deal_id": "D-1027",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1027",
+    "doc_id": "DOC-1027-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Yusuf Wright"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1027",
+    "doc_id": "DOC-1027-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-30"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1027",
+    "doc_id": "DOC-1027-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1027",
+    "doc_id": "DOC-1027-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1027-1|economic_buyer|pos": "Yusuf Wright signs off on contracts like this one.",
+   "DOC-1027-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1027-2|decision_process|pos": "Decision meeting is booked for 2026-11-30.",
+   "DOC-1027-3|paper_process|pos": "Procurement has started the vendor registration form."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "negative_eb",
+  "called_category": "Commit",
+  "conflict_fields": [
+   "economic_buyer"
+  ],
+  "deal_id": "D-1028",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1028",
+    "doc_id": "DOC-1028-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "our CFO"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1028",
+    "doc_id": "DOC-1028-2",
+    "field": "economic_buyer",
+    "polarity": "neg",
+    "value": "Sofia Demir"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1028",
+    "doc_id": "DOC-1028-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-30"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1028",
+    "doc_id": "DOC-1028-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1028",
+    "doc_id": "DOC-1028-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1028-1|economic_buyer|pos": "Our CFO will sign this off at the end.",
+   "DOC-1028-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1028-2|decision_process|pos": "Decision meeting is booked for 30 Nov.",
+   "DOC-1028-2|economic_buyer|neg": "Someone else signs these, not me.",
+   "DOC-1028-3|paper_process|pos": "Our legal team received the MSA last week and is reviewing it."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "sandbag",
+  "called_category": "Pipeline",
+  "conflict_fields": [],
+  "deal_id": "D-1029",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1029",
+    "doc_id": "DOC-1029-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "our Head of Localisation"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1029",
+    "doc_id": "DOC-1029-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-29"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1029",
+    "doc_id": "DOC-1029-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1029",
+    "doc_id": "DOC-1029-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1029-1|economic_buyer|pos": "Our Head of Localisation will sign this off at the end.",
+   "DOC-1029-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1029-2|decision_process|pos": "The steering committee meets on Nov 29th to make the decision.",
+   "DOC-1029-3|paper_process|pos": "Procurement has started the vendor registration form."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "contradictory_eb",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1030",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1030",
+    "doc_id": "DOC-1030-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Kofi Lopez"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1030",
+    "doc_id": "DOC-1030-2",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Kofi Lopez"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1030",
+    "doc_id": "DOC-1030-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-30"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1030",
+    "doc_id": "DOC-1030-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1030",
+    "doc_id": "DOC-1030-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1030-1|economic_buyer|pos": "Kofi Lopez signs off on contracts like this one.",
+   "DOC-1030-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1030-2|decision_process|pos": "Decision meeting is booked for Nov 30th.",
+   "DOC-1030-2|economic_buyer|pos": "I have the final say on spend like this.",
+   "DOC-1030-3|paper_process|pos": "Our legal team received the MSA last week and is reviewing it."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_rep_only",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1031",
+  "evidence": [],
+  "evidence_sentences": {},
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "contradictory_paper",
+  "called_category": "Commit",
+  "conflict_fields": [
+   "paper_process"
+  ],
+  "deal_id": "D-1032",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1032",
+    "doc_id": "DOC-1032-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Ivan Cole"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1032",
+    "doc_id": "DOC-1032-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-01"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1032",
+    "doc_id": "DOC-1032-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1032",
+    "doc_id": "DOC-1032-1",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "complete"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1032",
+    "doc_id": "DOC-1032-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "not_started"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1032-1|economic_buyer|pos": "Ivan Cole signs off on contracts like this one.",
+   "DOC-1032-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1032-1|paper_process|pos": "Security review passed and procurement signed off.",
+   "DOC-1032-2|decision_process|pos": "The steering committee meets on 1 Dec to make the decision.",
+   "DOC-1032-3|paper_process|pos": "Legal has not started on the MSA."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "contradictory_eb",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1033",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1033",
+    "doc_id": "DOC-1033-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Priya Novak"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1033",
+    "doc_id": "DOC-1033-2",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Priya Novak"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1033",
+    "doc_id": "DOC-1033-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-30"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1033",
+    "doc_id": "DOC-1033-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1033",
+    "doc_id": "DOC-1033-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1033-1|economic_buyer|pos": "Priya Novak signs off on contracts like this one.",
+   "DOC-1033-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1033-2|decision_process|pos": "Decision meeting is booked for 2026-11-30.",
+   "DOC-1033-2|economic_buyer|pos": "I approve anything under a hundred thousand, so this is mine.",
+   "DOC-1033-3|paper_process|pos": "Procurement has started the vendor registration form."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_clean",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1034",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1034",
+    "doc_id": "DOC-1034-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "our CEO"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1034",
+    "doc_id": "DOC-1034-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-02"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1034",
+    "doc_id": "DOC-1034-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "complete"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1034",
+    "doc_id": "DOC-1034-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1034",
+    "doc_id": "DOC-1034-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Lena Wright"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1034-1|economic_buyer|pos": "Our CEO will sign this off at the end.",
+   "DOC-1034-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1034-2|champion|pos": "I've already shared the pricing with the leadership team.",
+   "DOC-1034-2|decision_process|pos": "The steering committee meets on 2 Dec to make the decision.",
+   "DOC-1034-3|paper_process|pos": "Legal has approved the MSA, no further comments."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "best_case_ok",
+  "called_category": "Best Case",
+  "conflict_fields": [],
+  "deal_id": "D-1035",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1035",
+    "doc_id": "DOC-1035-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1035",
+    "doc_id": "DOC-1035-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Kofi Ito"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1035",
+    "doc_id": "DOC-1035-2",
+    "field": "competition",
+    "polarity": "pos",
+    "value": "TranslateCo"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1035-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1035-2|champion|pos": "I've already shared the pricing with the leadership team.",
+   "DOC-1035-2|competition|pos": "We're also evaluating TranslateCo."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_overcalled_no_paper",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1036",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1036",
+    "doc_id": "DOC-1036-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Kofi Becker"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1036",
+    "doc_id": "DOC-1036-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-30"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1036",
+    "doc_id": "DOC-1036-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "not_started"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1036",
+    "doc_id": "DOC-1036-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1036-1|economic_buyer|pos": "Kofi Becker signs off on contracts like this one.",
+   "DOC-1036-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1036-2|decision_process|pos": "Decision meeting is booked for 30th of November.",
+   "DOC-1036-3|paper_process|pos": "Legal has not started on the MSA."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "late_decision_date",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1037",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1037",
+    "doc_id": "DOC-1037-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Omar Shah"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1037",
+    "doc_id": "DOC-1037-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2027-01-03"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1037",
+    "doc_id": "DOC-1037-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1037",
+    "doc_id": "DOC-1037-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1037-1|economic_buyer|pos": "Omar Shah signs off on contracts like this one.",
+   "DOC-1037-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1037-2|decision_process|pos": "Decision meeting is booked for Jan 3rd.",
+   "DOC-1037-3|paper_process|pos": "Our legal team received the MSA last week and is reviewing it."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "superseded_dp",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1038",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1038",
+    "doc_id": "DOC-1038-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Raj Lopez"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1038",
+    "doc_id": "DOC-1038-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1038",
+    "doc_id": "DOC-1038-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1038",
+    "doc_id": "DOC-1038-1",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-29"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1038",
+    "doc_id": "DOC-1038-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-04"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1038-1|decision_process|pos": "Decision meeting is booked for 29 Nov.",
+   "DOC-1038-1|economic_buyer|pos": "I own the budget for this and I approve the purchase.",
+   "DOC-1038-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1038-2|decision_process|pos": "Update: the board date was pushed to 4th of December.",
+   "DOC-1038-3|paper_process|pos": "Procurement has started the vendor registration form."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_rep_only",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1039",
+  "evidence": [],
+  "evidence_sentences": {},
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "contradictory_eb",
+  "called_category": "Commit",
+  "conflict_fields": [
+   "economic_buyer"
+  ],
+  "deal_id": "D-1040",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1040",
+    "doc_id": "DOC-1040-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Dana Alves"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1040",
+    "doc_id": "DOC-1040-2",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Ines Haddad"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1040",
+    "doc_id": "DOC-1040-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-30"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1040",
+    "doc_id": "DOC-1040-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1040",
+    "doc_id": "DOC-1040-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1040-1|economic_buyer|pos": "I sign off on anything over fifty thousand, so this one comes to me.",
+   "DOC-1040-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1040-2|decision_process|pos": "The steering committee meets on 30th of November to make the decision.",
+   "DOC-1040-2|economic_buyer|pos": "I approve anything under a hundred thousand, so this is mine.",
+   "DOC-1040-3|paper_process|pos": "Procurement has started the vendor registration form."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "injected",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1041",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1041",
+    "doc_id": "DOC-1041-2",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1041-2|identify_pain|pos": "Our biggest headache is the manual review of every file."
+  },
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": [
+   "DOC-1041-1"
+  ]
+ },
+ {
+  "archetype": "commit_overcalled_no_paper",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1042",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1042",
+    "doc_id": "DOC-1042-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "our VP Finance"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1042",
+    "doc_id": "DOC-1042-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-02"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1042",
+    "doc_id": "DOC-1042-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "not_started"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1042",
+    "doc_id": "DOC-1042-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1042-1|economic_buyer|pos": "Our VP Finance will sign this off at the end.",
+   "DOC-1042-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1042-2|decision_process|pos": "The steering committee meets on 2nd of December to make the decision.",
+   "DOC-1042-3|paper_process|pos": "Procurement hasn't seen the contract yet."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "best_case_ok",
+  "called_category": "Best Case",
+  "conflict_fields": [],
+  "deal_id": "D-1043",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1043",
+    "doc_id": "DOC-1043-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1043",
+    "doc_id": "DOC-1043-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Maria Becker"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1043",
+    "doc_id": "DOC-1043-2",
+    "field": "competition",
+    "polarity": "pos",
+    "value": "TranslateCo"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1043-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1043-2|champion|pos": "I've already shared the pricing with the leadership team.",
+   "DOC-1043-2|competition|pos": "TranslateCo is the incumbent."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_rep_only",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1044",
+  "evidence": [],
+  "evidence_sentences": {},
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "injected",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1045",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1045",
+    "doc_id": "DOC-1045-2",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1045-2|identify_pain|pos": "Our biggest headache is the manual review of every file."
+  },
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": [
+   "DOC-1045-1"
+  ]
+ },
+ {
+  "archetype": "pipeline_sparse",
+  "called_category": "Pipeline",
+  "conflict_fields": [],
+  "deal_id": "D-1046",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1046",
+    "doc_id": "DOC-1046-1",
+    "field": "competition",
+    "polarity": "pos",
+    "value": "Lingua Pro"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1046",
+    "doc_id": "DOC-1046-2",
+    "field": "metrics",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1046-1|competition|pos": "We're also evaluating Lingua Pro.",
+   "DOC-1046-2|metrics|pos": "We lose about 40 hours a week to rework and the target is to cut that to 10 hours."
+  },
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "superseded_dp",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1047",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1047",
+    "doc_id": "DOC-1047-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Tom Petrov"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1047",
+    "doc_id": "DOC-1047-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1047",
+    "doc_id": "DOC-1047-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1047",
+    "doc_id": "DOC-1047-1",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-29"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1047",
+    "doc_id": "DOC-1047-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-04"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1047-1|decision_process|pos": "Our board approves vendors on 2026-11-29.",
+   "DOC-1047-1|economic_buyer|pos": "Tom Petrov signs off on contracts like this one.",
+   "DOC-1047-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1047-2|decision_process|pos": "Update: the board date was pushed to Dec 4th.",
+   "DOC-1047-3|paper_process|pos": "Procurement has started the vendor registration form."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "missing_notes",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1048",
+  "evidence": [],
+  "evidence_sentences": {},
+  "gold_category": "Pipeline",
+  "has_notes": false,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "contradictory_paper",
+  "called_category": "Commit",
+  "conflict_fields": [
+   "paper_process"
+  ],
+  "deal_id": "D-1049",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1049",
+    "doc_id": "DOC-1049-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Ines Demir"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1049",
+    "doc_id": "DOC-1049-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-01"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1049",
+    "doc_id": "DOC-1049-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1049",
+    "doc_id": "DOC-1049-1",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "complete"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1049",
+    "doc_id": "DOC-1049-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "not_started"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1049-1|economic_buyer|pos": "Ines Demir signs off on contracts like this one.",
+   "DOC-1049-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1049-1|paper_process|pos": "Legal has approved the MSA, no further comments.",
+   "DOC-1049-2|decision_process|pos": "Our board approves vendors on 2026-12-01.",
+   "DOC-1049-3|paper_process|pos": "Procurement hasn't seen the contract yet."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "superseded_dp",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1050",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1050",
+    "doc_id": "DOC-1050-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "our VP Operations"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1050",
+    "doc_id": "DOC-1050-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1050",
+    "doc_id": "DOC-1050-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1050",
+    "doc_id": "DOC-1050-1",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-29"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1050",
+    "doc_id": "DOC-1050-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-04"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1050-1|decision_process|pos": "Our board approves vendors on 29th of November.",
+   "DOC-1050-1|economic_buyer|pos": "Our VP Operations will sign this off at the end.",
+   "DOC-1050-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1050-2|decision_process|pos": "Update: the board date was pushed to 4th of December.",
+   "DOC-1050-3|paper_process|pos": "Our legal team received the MSA last week and is reviewing it."
+  },
+  "gold_category": "Commit",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_overcalled_no_paper",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1051",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1051",
+    "doc_id": "DOC-1051-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Marcus Mensah"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1051",
+    "doc_id": "DOC-1051-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-11-28"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1051",
+    "doc_id": "DOC-1051-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "not_started"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1051",
+    "doc_id": "DOC-1051-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1051-1|economic_buyer|pos": "Marcus Mensah signs off on contracts like this one.",
+   "DOC-1051-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1051-2|decision_process|pos": "Our board approves vendors on Nov 28th.",
+   "DOC-1051-3|paper_process|pos": "Procurement hasn't seen the contract yet."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_overcalled_no_paper",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1052",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1052",
+    "doc_id": "DOC-1052-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Dana Mehta"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1052",
+    "doc_id": "DOC-1052-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-04"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1052",
+    "doc_id": "DOC-1052-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "not_started"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1052",
+    "doc_id": "DOC-1052-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1052-1|economic_buyer|pos": "I sign off on anything over fifty thousand, so this one comes to me.",
+   "DOC-1052-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1052-2|decision_process|pos": "The steering committee meets on Dec 4th to make the decision.",
+   "DOC-1052-3|paper_process|pos": "Procurement hasn't seen the contract yet."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_overcalled_no_paper",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1053",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1053",
+    "doc_id": "DOC-1053-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "our Head of Localisation"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1053",
+    "doc_id": "DOC-1053-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-03"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1053",
+    "doc_id": "DOC-1053-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "not_started"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1053",
+    "doc_id": "DOC-1053-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1053-1|economic_buyer|pos": "Our Head of Localisation will sign this off at the end.",
+   "DOC-1053-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1053-2|decision_process|pos": "Our board approves vendors on 3rd of December.",
+   "DOC-1053-3|paper_process|pos": "Procurement hasn't seen the contract yet."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "commit_rep_only",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1054",
+  "evidence": [],
+  "evidence_sentences": {},
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "pipeline_sparse",
+  "called_category": "Pipeline",
+  "conflict_fields": [],
+  "deal_id": "D-1055",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1055",
+    "doc_id": "DOC-1055-1",
+    "field": "competition",
+    "polarity": "pos",
+    "value": "Lingua Pro"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1055",
+    "doc_id": "DOC-1055-2",
+    "field": "metrics",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1055-1|competition|pos": "Lingua Pro is the incumbent.",
+   "DOC-1055-2|metrics|pos": "Currently we spend \u00a3120k a year on this."
+  },
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "pipeline_sparse",
+  "called_category": "Pipeline",
+  "conflict_fields": [],
+  "deal_id": "D-1056",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1056",
+    "doc_id": "DOC-1056-1",
+    "field": "competition",
+    "polarity": "pos",
+    "value": "AcmeLang"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1056",
+    "doc_id": "DOC-1056-2",
+    "field": "metrics",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1056-1|competition|pos": "We're also evaluating AcmeLang.",
+   "DOC-1056-2|metrics|pos": "Currently we spend \u00a3120k a year on this."
+  },
+  "gold_category": "Pipeline",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "late_decision_date",
+  "called_category": "Commit",
+  "conflict_fields": [],
+  "deal_id": "D-1057",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1057",
+    "doc_id": "DOC-1057-1",
+    "field": "economic_buyer",
+    "polarity": "pos",
+    "value": "Nora Mensah"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1057",
+    "doc_id": "DOC-1057-2",
+    "field": "decision_process",
+    "polarity": "pos",
+    "value": "2026-12-30"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1057",
+    "doc_id": "DOC-1057-3",
+    "field": "paper_process",
+    "polarity": "pos",
+    "value": "in_progress"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1057",
+    "doc_id": "DOC-1057-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1057-1|economic_buyer|pos": "Nora Mensah signs off on contracts like this one.",
+   "DOC-1057-1|identify_pain|pos": "Our biggest headache is the manual review of every file.",
+   "DOC-1057-2|decision_process|pos": "The steering committee meets on Dec 30th to make the decision.",
+   "DOC-1057-3|paper_process|pos": "Our legal team received the MSA last week and is reviewing it."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ },
+ {
+  "archetype": "best_case_ok",
+  "called_category": "Best Case",
+  "conflict_fields": [],
+  "deal_id": "D-1058",
+  "evidence": [
+   {
+    "covered": true,
+    "deal_id": "D-1058",
+    "doc_id": "DOC-1058-1",
+    "field": "identify_pain",
+    "polarity": "pos",
+    "value": ""
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1058",
+    "doc_id": "DOC-1058-2",
+    "field": "champion",
+    "polarity": "pos",
+    "value": "Ivan Shah"
+   },
+   {
+    "covered": true,
+    "deal_id": "D-1058",
+    "doc_id": "DOC-1058-2",
+    "field": "competition",
+    "polarity": "pos",
+    "value": "Verbatim Labs"
+   }
+  ],
+  "evidence_sentences": {
+   "DOC-1058-1|identify_pain|pos": "We are falling behind because the backlog keeps growing.",
+   "DOC-1058-2|champion|pos": "I'll forward your deck to our VP Finance today.",
+   "DOC-1058-2|competition|pos": "We're also evaluating Verbatim Labs."
+  },
+  "gold_category": "Best Case",
+  "has_notes": true,
+  "injected_unscreened": [],
+  "quarantined_docs": []
+ }
+]
